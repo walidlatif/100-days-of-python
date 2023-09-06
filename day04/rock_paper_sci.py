@@ -41,8 +41,8 @@ if choose in range(3):
     print("Computer chose:")
     print(computer)
 
-    #"\" : Using pycodestyle
-    #Documentation Link : https://pycodestyle.pycqa.org/en/latest/
+    # "\" : Using pycodestyle
+    # Documentation Link : https://pycodestyle.pycqa.org/en/latest/
 
     if (computer == rock and choose == 0) or \
        (computer == paper and choose == 1) or \
