@@ -10,13 +10,13 @@ symbol = "&*@$%#!?-+_=><|~/\\/{[]}():;,.\"'"
 number = "0123456789"
 _password = ""
 
-for i in range(letters):
+for _ in range(letters):
     le = random.choice(letter)
     _password += le
-for j in range(symbols):
+for _ in range(symbols):
     s = random.choice(symbol)
     _password += s
-for k in range(numbers):
+for _ in range(numbers):
     n = random.choice(number)
     _password += n
 
