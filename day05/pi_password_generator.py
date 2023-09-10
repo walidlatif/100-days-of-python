@@ -24,7 +24,7 @@ password_list = list(_password)
 # Shuffle the list in place
 random.shuffle(password_list)
 # Create a shuffled password string by joining the list of
-# characters ( Delete -> "[]" and "," )
+# characters ( Delete -> " [] " , " , " and " '' ")
 # from ['a', 'b', 'c', 'd'] to abcd
 shuffled_password = ''.join(password_list)
 print("Here is your password: {}".format(shuffled_password))
