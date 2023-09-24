@@ -39,6 +39,8 @@ elif password_format == 2:
         print("#Uppercase, Lowercase, Numbers, Symbols")
 elif password_format == 3:
     print("All characters ")
+elif password_format == 3:
+    print("All characters ")
 
 
 
