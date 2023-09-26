@@ -1,4 +1,4 @@
-import random
+'''import random
 
 print("Customize your password!")
 password_lenght = int(input("Choose Password Length : "))
@@ -41,7 +41,7 @@ elif password_format == 3:
     print("All characters ")
 elif password_format == 3:
     print("All characters ")
-
+'''
 
 
 
